@@ -1,0 +1,75 @@
+/*
+Theme Name: Enno's Custom Theme
+Author: Enno Hyttrek
+Version: 1.0.2
+*/
+
+
+/*
+RESET
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*
+LAYOUT
+*/
+
+.my-home-post-thumbnail {
+      width: 150px;  
+}
+
+
+
+
+
+/*
+COLOR
+*/
+
+body {
+
+}
+
+
+
+body.single {
+
+}
+
+body.page {
+
+}
+
+
+/*
+TYPOGRAPHY
+*/
+body {
+    font-family: "Arial", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
