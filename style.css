@@ -1,7 +1,7 @@
 /*
 Theme Name: Enno's Custom Theme
 Author: Enno Hyttrek
-Version: 1.0.2
+Version: 1.0.3
 */
 
 
@@ -31,7 +31,17 @@ LAYOUT
       width: 150px;  
 }
 
+.my-sidebar {
+    display: flex;
+}
 
+.my-sidebar main {
+    width: 70%;
+}
+
+.my-sidebar aside {
+    width: 30%;
+}
 
 
 
