@@ -1,7 +1,7 @@
 /*
 Theme Name: Enno's Custom Theme
 Author: Enno Hyttrek
-Version: 1.0.2
+Version: 1.0.4
 */
 
 /*
@@ -48,6 +48,7 @@ footer > *,
     padding: 0 10vw;
 }
 
+<<<<<<< HEAD
 header,
 footer,
 main,
@@ -57,6 +58,18 @@ aside {
 
 h1,h2,h3,h4,h5,h6,p,ul,ol {
     margin-bottom: 1em;
+=======
+.my-sidebar {
+    display: flex;
+}
+
+.my-sidebar main {
+    width: 70%;
+}
+
+.my-sidebar aside {
+    width: 30%;
+>>>>>>> eadaf6fd02b181fafd559f84c0a90d04465aa455
 }
 
 .my-home-post-thumbnail {
