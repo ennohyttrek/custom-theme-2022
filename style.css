@@ -58,7 +58,8 @@ aside {
 
 h1,h2,h3,h4,h5,h6,p,ul,ol {
     margin-bottom: 1em;
-=======
+}
+
 .my-sidebar {
     display: flex;
 }
@@ -69,7 +70,6 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 
 .my-sidebar aside {
     width: 30%;
->>>>>>> eadaf6fd02b181fafd559f84c0a90d04465aa455
 }
 
 .my-home-post-thumbnail {
