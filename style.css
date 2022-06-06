@@ -4,6 +4,20 @@ Author: Enno Hyttrek
 Version: 1.0.2
 */
 
+/*
+VARIABLES
+*/
+
+:root {
+    --color-base: 180;
+    --color-primary-light: hsl(var(--color-base), 42%, 76%);
+    --color-primary-mid: hsl(var(--color-base), 42%, 42%);
+    --color-primary-dark: hsl(var(--color-base), 42%, 21%);
+    --color-sub-white: hsl(var(--color-base), 8%, 94%);
+    --color-sub-black: hsl(var(--color-base), 8%, 8%);
+
+}
+
 
 /*
 RESET
@@ -27,11 +41,45 @@ img {
 LAYOUT
 */
 
+header > *,
+footer > *,
+.main-nav > div,
+.wrapper {
+    padding: 0 10vw;
+}
+
+header,
+footer,
+main,
+aside {
+    padding: 1rem 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol {
+    margin-bottom: 1em;
+}
+
 .my-home-post-thumbnail {
-      width: 150px;  
+    width: 150px;
 }
 
 
+/*
+NAVIGATION
+*/
+
+nav ul {
+    list-style-type: none;
+}
+
+nav > div > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav > div > ul > li {
+    margin-right: 1.3em;
+}
 
 
 
@@ -40,18 +88,14 @@ COLOR
 */
 
 body {
-
+    background: var(--color-primary-dark);
 }
 
-
-
-body.single {
-
+body,
+a {
+      color: var(--color-sub-white);  
 }
 
-body.page {
-
-}
 
 
 /*
@@ -60,16 +104,3 @@ TYPOGRAPHY
 body {
     font-family: "Arial", sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
